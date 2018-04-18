@@ -19,10 +19,27 @@ public class Empleado {
     private String fechaActualizacion;
     private String activo;
 
+
+    /**
+     * Constructor vacío de la clase
+     *
+     *
+     * @author Gerardo Martinez &lt;gerardo.martinez@dish.com.mx&gt;
+     *
+     * @since 0.0.1
+     */
     public Empleado() {
 
     }
 
+    /**
+     * Constructor con argumentos de la clase
+     *
+     *
+     * @author Gerardo Martinez &lt;gerardo.martinez@dish.com.mx&gt;
+     *
+     * @since 0.0.1
+     */
     public Empleado(int num_empleado, String nombre, int antiguedad, String fecha, String activo) {
         this.numEmpleado = num_empleado;
         this.nombre = nombre;
